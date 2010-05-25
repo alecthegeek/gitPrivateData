@@ -1,0 +1,14 @@
+Git Private Data
+
+Removes and adds confidential data when Git either adds a file or does a checkout.
+
+Uses the Git Smudge and Clean feature See http://progit.org/book/ch7-2.html
+
+Define the information to be hidden in smudge.regex
+
+NB Confidential data is stored in smudge.values -- do not add that to your repo!!!
+
+Better docmentaiton needed
+
+More complex testing needed
+
